@@ -28,9 +28,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<properties>
-  <sonar.organization>mylandmarktechs</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-</properties>
+ 
 	</properties>
 
 	<dependencies>
@@ -96,22 +94,7 @@
 		</dependency>
 		
 	</dependencies>
-	
-	<distributionManagement>
-	    <repository>
-	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://44.192.81.238:8888/mylandmarktech/repository/boa-release/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://44.192.81.238:8888/mylandmarktech/repository/boa-snapshot/</url>
-	    </snapshotRepository>
-	    
-	</distributionManagement>
-	
+		
 	<build>
 		<finalName>maven-web-app</finalName>
 		
