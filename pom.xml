@@ -13,7 +13,7 @@
 
 	<organization>
 		<name>Landmark Technologies</name>
-		<url>https://github.com/osazuwa24/maven-web-app</url>
+		<url>https://github.com/osazuwa24/maven-web-app/</url>
 	</organization>
 
 	<properties>
@@ -32,11 +32,11 @@
 	</properties>
 
 	<dependencies>	
-	      <dependency>
+	<dependency>
 		<groupId>org.json</groupId>
 		<artifactId>json</artifactId>
 		<version>20160212</version>
-		</dependency>
+	</dependency>
 		
 		<!-- test dependencies -->
 		<dependency>
